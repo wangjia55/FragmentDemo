@@ -35,6 +35,10 @@
             android:name=".slideActivity.DetailActivity"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".swipeback.SwipeDemoActivity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>

@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.fragment.pagerAndhost.ViewPagerAndHostActivity;
 import com.example.fragment.slideActivity.SlideMainActivity;
+import com.example.fragment.swipeback.SwipeDemoActivity;
 import com.example.fragment.tabhost.FragmentTabHostDemo;
 import com.example.fragment.viewpager.ViewPagerActivity;
 
@@ -23,6 +24,7 @@ public class ActivityMainActivity extends Activity implements View.OnClickListen
         findViewById(R.id.button_vp_host).setOnClickListener(this);
         findViewById(R.id.button_view_pager).setOnClickListener(this);
         findViewById(R.id.button_slide_main).setOnClickListener(this);
+        findViewById(R.id.button_swipe_demo).setOnClickListener(this);
     }
 
     @Override
@@ -48,7 +50,11 @@ public class ActivityMainActivity extends Activity implements View.OnClickListen
                 startActivity(intent);
             }
             break;
-
+            case R.id.button_swipe_demo: {
+                Intent intent = new Intent(this, SwipeDemoActivity.class);
+                startActivity(intent);
+            }
+            break;
             case R.id.button_slidemenu:
                 break;
         }

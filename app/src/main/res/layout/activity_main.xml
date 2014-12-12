@@ -41,4 +41,10 @@
         android:text="Slide Main"
         android:id="@+id/button_slide_main"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swipe demo"
+        android:id="@+id/button_swipe_demo"/>
+
 </LinearLayout>
