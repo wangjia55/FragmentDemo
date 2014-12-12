@@ -28,7 +28,12 @@
         <activity
             android:name=".viewpager.ViewPagerActivity"
             android:screenOrientation="portrait"/>
-        ViewPagerActivity
+        <activity
+            android:name=".slideActivity.SlideMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".slideActivity.DetailActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 
