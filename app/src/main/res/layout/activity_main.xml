@@ -22,4 +22,16 @@
         android:text="SlideMenu+FragmentStack"
         android:id="@+id/button_slidemenu"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager tabHost"
+        android:id="@+id/button_vp_host"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager Demo"
+        android:id="@+id/button_view_pager"/>
+
 </LinearLayout>

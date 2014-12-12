@@ -21,6 +21,15 @@
         <activity
             android:name=".tabhost.FragmentTabHostDemo"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".pagerAndhost.ViewPagerAndHostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".viewpager.ViewPagerActivity"
+            android:screenOrientation="portrait"/>
+        ViewPagerActivity
+
     </application>
 
 </manifest>
